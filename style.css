@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  /* Navbar Styles */
+  
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -48,8 +48,8 @@ body {
   .navbar .cta-button:hover {
     background-color: #ffd700;
   }
+
   
-  /* Responsive */
   @media (max-width: 768px) {
     .navbar {
       flex-direction: column;
@@ -73,7 +73,7 @@ body {
     overflow: hidden;
   }
   
-  /* Tree Images */
+  
   .tree {
     position: absolute;
     top: 50%;
@@ -94,7 +94,7 @@ body {
     right: 20px;
   }
   
-  /* Banner Content */
+  
   .banner-content {
     max-width: 700px;
     z-index: 1;
@@ -114,7 +114,7 @@ body {
     line-height: 1.4;
   }
   
-  /* Yellow button style */
+  
   .banner-content .cta-button {
     background-color: yellow;
     color: green;
@@ -131,7 +131,7 @@ body {
     background-color: #ffd700;
   }
   
-  /* Responsive */
+  
   @media (max-width: 768px) {
     .banner {
       flex-direction: column;
@@ -200,7 +200,7 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
-  /* Plant Today Section */
+
   .plant-today {
     text-align: center;
     padding: 50px 20px;
@@ -233,7 +233,7 @@ body {
     margin-top: 20px;
   }
   
-  /* Mobile Responsive */
+  
   @media (max-width: 768px) {
     .about-container {
       flex-direction: column;
@@ -253,7 +253,7 @@ body {
     padding: 0;
   }
   
-  /* Tree Cards Layout */
+  
   .tree-container {
     display: flex;
     justify-content: center;
@@ -295,7 +295,7 @@ body {
     background: darkgreen;
   }
   
-  /* Cart */
+  
   .cart {
     max-width: 400px;
     margin: 20px auto;
@@ -322,7 +322,7 @@ body {
     padding: 0;
   }
   
-  /* Tree Cards Layout */
+  
   .tree-container {
     display: flex;
     justify-content: center;
@@ -368,7 +368,7 @@ body {
     background: darkgreen;
   }
   
-  /* Cart */
+
   .cart {
     max-width: 400px;
     margin: 20px auto;
@@ -391,7 +391,7 @@ body {
     border-bottom: 1px dashed #ccc;
   }
   
-  /* ---------- RESPONSIVENESS ---------- */
+  
   @media (max-width: 1024px) {
     .tree-container {
       gap: 15px;
